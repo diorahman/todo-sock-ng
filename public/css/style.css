@@ -1,0 +1,4 @@
+body{margin:0;padding:60px 0;background-color:#eeeeee;}
+
+.login-box{background-color:#ffffff;padding:10px;box-shadow:2px 2px 3px #888888;-webkit-box-shadow:2px 2px 3px #888888;-o-box-shadow:2px 2px 3px #888888;-moz-box-shadow:2px 2px 3px #888888;border-radius:5px 5px 5px 5px;-webkit-border-radius:5px 5px 5px 5px;-moz-border-radius:5px 5px 5px 5px;-o-border-radius:5px 5px 5px 5px;}
+.login-box .a-signup{line-height:30px;}
