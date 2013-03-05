@@ -6,6 +6,7 @@ body{margin:0;padding:60px 0;background-color:#ffffff;}
 .todolist input[type="text"]{font-size:20px;height:25px;margin-bottom:20px;}
 .todolist .checkbox{font-size:20px;margin-bottom:10px;}
 .todolist .checkbox .todo-true{text-decoration:line-through;color:#808080;font-style:italic;}
+.todolist .close-row{margin-top:20px;}
 
 div.checkbox{padding:0;}
 i.icon-ok{margin:5px 5px 0 0;}
