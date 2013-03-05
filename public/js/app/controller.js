@@ -10,21 +10,4 @@ function todolist_controller($scope) {
 		$scope.todo_text = '';
 	}
 
-	$scope.show_close_button = function() {
-		var found = false;
-		var idx = 0;
-		while (!found && idx < $scope.todos.length) {
-			if (!$scope.todos[idx].done) {
-				found = true;
-			}
-
-			idx++;
-		}
-
-		if (!found) {
-			angular.element("#btn-close").removeAttr('disabled');
-		} else {
-			angular.element("#btn-close").attr('disabled', '');
-		}
-	}
 }
